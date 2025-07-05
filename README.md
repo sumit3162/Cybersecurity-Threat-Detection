@@ -93,25 +93,6 @@ The dashboard processes data from:
    - Geographic threat distribution
    - Machine learning model performance
 
-## Configuration
-
-Key configuration options in `.env`:
-
-```ini
-# Database
-DATABASE_URL=postgres://user:password@localhost:5432/dbname
-
-# Redis
-REDIS_URL=redis://localhost:6379
-
-# Security
-SECRET_KEY=your-secret-key-here
-ALLOWED_HOSTS=localhost,127.0.0.1
-
-# Data Processing
-DATA_UPDATE_INTERVAL=300  # seconds
-MAX_LOG_ENTRIES=10000
-```
 
 ## Data Model
 
