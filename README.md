@@ -96,7 +96,7 @@ The dashboard processes data from:
 
 ## Data Model
 
-![Data Model Diagram](data-model.png)
+![Data Model Diagram](output.png)
 
 The system processes network traffic data with the following key fields:
 
