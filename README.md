@@ -158,4 +158,4 @@ MIT License. See `LICENSE` for details.
 
 ---
 
-For additional documentation, see the [docs folder](docs/) in the repository.
+
