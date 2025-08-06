@@ -1,28 +1,56 @@
-# 🛡️ Cybersecurity Threat Detection Dashboard
+# 🛡️ Cybersecurity Threat Detection
 
-A Machine Learning-powered dashboard to detect cybersecurity threats in real-time using a combination of supervised models and web technologies.
+A machine learning-based project to detect cybersecurity threats using real-time web traffic data. Built as part of my internship to explore threat prediction, data visualization, and web-based deployment.
+
+---
 
 ## 📌 Project Overview
 
-This project is a part of my Data Analyst Internship at **Unified Mentor Pvt. Ltd.**  
-It focuses on building a responsive web-based dashboard for **detecting cybersecurity threats** based on live sensor data.
+This project analyzes network traffic data to classify and detect potential cybersecurity threats using supervised ML algorithms.
 
-## 🚀 Features
+The notebook includes:
+- Data preprocessing from AWS CloudWatch logs
+- Model training (Random Forest, etc.)
+- Visualization of threat types and prediction accuracy
+- Web integration for user interface (`index.html`)
 
-- Real-time data streaming and threat detection
-- Integrated **Random Forest** and **CNN models**
-- WebSocket-based live data updates
-- Redis caching for faster performance
-- Responsive and clean UI
+---
 
-## 🧠 Tech Stack
+## 🧠 Technologies Used
 
-- **Frontend:** HTML,
-- **Backend:** Python 
-- **Other:** Redis, Git, GitHub Pages
+- **Python** – data analysis, modeling
+- **Pandas, Scikit-learn** – data manipulation & ML
+- **Matplotlib, Seaborn** – data visualization
+- **Jupyter Notebook** – development environment
+- **HTML/CSS/JS** – frontend visualization
+- **GitHub Pages** – hosting
 
-## 🖼️ Dashboard Preview
+---
 
+## 📁 Files in the Repository
 
-## 📁 Project Structure
+| File | Description |
+|------|-------------|
+| `index.html` | Frontend interface (was `detection.html`) |
+| `cybersecurity_threat_detection.ipynb` | Main ML notebook |
+| `threat_detection.ipynb` | Alternate version |
+| `CloudWatch_Traffic_Web_Attack.csv` | Dataset from AWS CloudWatch |
+| `2.png`–`6.png`, `output.png` | Visual outputs/graphs |
+| `README.md` | This file |
+
+---
+
+## 🖼️ Sample Visuals
+
+![Output][(output.png](https://github.com/sumit3162/Cybersecurity-Threat-Detection/blob/main/2.png))
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sumit3162/Cybersecurity-Threat-Detection.git
+   cd Cybersecurity-Threat-Detection
+   Open the .ipynb notebook in Jupyter and run all cells.
 
